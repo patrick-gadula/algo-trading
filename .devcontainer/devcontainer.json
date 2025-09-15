@@ -1,0 +1,10 @@
+{
+  "name": "Algo Trading Dev",
+  "dockerFile": "../Dockerfile",
+  "context": "..",
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python3"
+  },
+  "extensions": ["ms-python.python"],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
