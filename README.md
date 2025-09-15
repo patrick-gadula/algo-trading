@@ -35,14 +35,5 @@ My script builds a simple predictive model:
 
 ---
 
-## 🧠 In Plain English
-
-- `main.py` = backtests a basic trading rule using moving averages.  
-- `regression_returns.py` = tries to predict tomorrow’s price from the last two days’ returns.  
-
-Both scripts follow the same process: **get data → apply rules/model → see results**.
-
----
-
 ## ⚠️ Disclaimer
 This is for learning only, not financial advice.
