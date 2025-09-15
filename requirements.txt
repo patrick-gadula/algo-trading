@@ -3,3 +3,5 @@ numpy
 matplotlib
 yfinance
 statsmodels
+ta
+scikit-learn
