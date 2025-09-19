@@ -63,11 +63,9 @@ if pred.iloc[0] > 0:
     print(f"  Entry at ~${entry_price:.2f}")
     print(f"  Take profit target: ${take_profit:.2f}")
     print(f"  Stop loss: ${stop_loss:.2f}")
-    print("  Holding period: ~1 day (next trading session)")
 else:
     stop_loss = entry_price * 1.02
     print(f"\n📉 Signal: SHORT {stock}")
     print(f"  Entry at ~${entry_price:.2f}")
     print(f"  Take profit target: ${take_profit:.2f}")
     print(f"  Stop loss: ${stop_loss:.2f}")
-    print("  Holding period: ~1 day (next trading session)")
